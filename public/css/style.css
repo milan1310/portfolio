@@ -29,8 +29,8 @@ body {
   height: 200px;
   width: 200px;
 }
-.intro-text{
-    text-align: center;
+.intro-text {
+  text-align: center;
 }
 .profile-container {
   height: 200px;
@@ -64,10 +64,10 @@ body {
 }
 
 /* navbar */
-.menue{
-    width: 50px;
-    height: 50px;
-    display: none;
+.menue {
+  width: 50px;
+  height: 50px;
+  display: none;
 }
 nav {
   display: flex;
@@ -125,37 +125,36 @@ nav {
   list-style: none;
   text-align: center;
 }
-.goal{
-    background-color: #345358;
-    padding: 5px;
-    color: #ffffff;
-    margin: 10px 0;
-    width: 100vw;
+.goal {
+  background-color: #345358;
+  padding: 5px;
+  color: #ffffff;
+  margin: 10px 0;
+  width: 100vw;
 }
 
 /* service */
 .service-section {
   margin: 5px auto;
 }
-.services-list{
-    list-style: square;
+.services-list {
+  list-style: square;
 }
 .service-section__img {
   width: 90%;
   height: 100%;
   margin: 10px 0;
 }
-.service-section__title{
-    border-bottom: 5px solid #ec4646;
-    display: inline;
-    word-spacing: 3px;
-    margin: 8px auto;
-    text-align: center;
+.service-section__title {
+  border-bottom: 5px solid #ec4646;
+  display: inline;
+  word-spacing: 3px;
+  margin: 8px auto;
+  text-align: center;
 }
-.service-section__info{
-    margin: 10px 0;
+.service-section__info {
+  margin: 10px 0;
 }
-
 
 /* work */
 .heading {
@@ -190,17 +189,17 @@ nav {
   border-top: 2px solid #48426d;
   padding: 5px;
 }
-.project-link{
-    text-decoration: none;
-    color: #000000;
-    font-weight: 600;
+.project-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
 }
-.project-link:hover{
-    color: #ffffff;
+.project-link:hover {
+  color: #ffffff;
 }
-.project-view_btn{
-    background-color: #fdb827;
-    margin: 5px;
+.project-view_btn {
+  background-color: #fdb827;
+  margin: 5px;
 }
 
 /* contact */
@@ -253,18 +252,17 @@ footer {
 .subscribe-btn:hover {
   color: #ffffff;
 }
-.media-icon{
-    margin: 8px;
-    color: #ffffff;
+.media-icon {
+  margin: 8px;
+  color: #ffffff;
 }
-.footer-link{
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 900;
+.footer-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 900;
 }
-.footer-link:hover{
-    color: #ec4646;
-
+.footer-link:hover {
+  color: #ec4646;
 }
 
 @media only screen and (max-width: 400px) {
@@ -274,20 +272,38 @@ footer {
     width: 100%;
     flex-direction: row;
   }
-  .intro-text{
-      text-align: left;
+  .intro-text {
+    text-align: left;
   }
-  .email-subscribe{
-      width: 50%;
+  .email-subscribe {
+    width: 50%;
   }
   .service-section__img {
     display: block;
     margin: 0 auto;
   }
-  .menue{
-      display: block;
+  .menue {
+    display: block;
   }
-  .navbar-items{
-      /* display: none; */
+}
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  .col-5,
+  .col-3,
+  .col-6 {
+    width: 100%;
+    flex-direction: row;
+  }
+  .intro-text {
+    text-align: left;
+  }
+  .email-subscribe {
+    width: 50%;
+  }
+  .service-section__img {
+    display: block;
+    margin: 0 auto;
+  }
+  .menue {
+    display: block;
   }
 }
